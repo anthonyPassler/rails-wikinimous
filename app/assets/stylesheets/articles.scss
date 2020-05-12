@@ -1,0 +1,38 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #E6E6E6;
+}
+nav h3 {
+  font-size: 20px;
+  color: #808080;
+}
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+h2 {
+  font-size: 32px;
+  color: #0F80FF;
+}
+.article-container {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
